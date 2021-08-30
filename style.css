@@ -1,379 +1,380 @@
 .bioheader {
-  background-color: #213523;
-  position: fixed;
-  width: 800px;
-  height: 40px;
-  margin-top: 0;
-  z-index: 99;
-}
-
-#menu1 {
-  position: absolute;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  left: 80px;
-  font-family: 'Raleway', sans-serif;
-  color: #cae8cd;
-  font-weight: bold;
-}
-
-#menu2 {
-  position: absolute;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  left: 225px;
-  font-family: 'Raleway', sans-serif;
-  color: #cae8cd;
-  font-weight: bold;
-}
-
-#menu3 {
-  position: absolute;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  left: 400px;
-  font-family: 'Raleway', sans-serif;
-  color: #cae8cd;
-  font-weight: bold;
-}
-
-#menu4 {
-  position: absolute;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  left: 565px;
-  font-family: 'Raleway', sans-serif;
-  color: #cae8cd;
-  font-weight: bold;
-}
-
-.container {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header {
-  font-family: 'Noto Serif', Serif;
-  color: white;
-}
-
-img {
-  width: 250px;
-  position: static;
-}
-
-.title1 {
-  position: absolute;
-  font-family: 'Noto Serif', Serif;
-  bottom: 50px;
-  left: 155px;
-}
-
-  .title2 {
-  font-family: 'Noto Serif', serif;
-  color: white; 
-  position: absolute;
-  bottom: 80px;
-  left: 155px; 
-}
-
-p {
-  margin-top: 70px;
-  margin-bottom: 20px;
-  font-family: 'Raleway', sans-serif;
-  color: #213523;
-  width: 550px;
-}
-
-ul {
- font-family: 'Raleway', sans-serif;
- color: #213523;
- width: 550px;
-}
-
-.bio {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  position: static;
-  margin-left: 0;
-  margin-bottom: 30px;
-}
-
-div {
-  width: 450px;
-  margin-left: 25px;
-}
-
-.achievements {
- display: flex;
- flex-direction: row;
- justify-content: flex-start;
- margin-left: 0;
-}
-
-.text {
-  width: 600px;
-}
-
-blockquote {
-  background-color: #213523;
-  color: white;
-  width: 200px;
-  height:230px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  font-height: 0;
-}
-
-blockquote::before {
-  content: '”';
-  background-color: #213523;
-  color: white;
-  font-family: 'Noto Serif', Serif;
-  font-size: 350%;
-  position: absolute;
-  top: 5px;
-  left: 3px;
-  font-height: 0;
-}
-
-.quote {
-  position: relative;
-  top: 20px;
-  bottom: 35px;
-  left: 30px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
+    background-color: #213523;
+    position: fixed;
+    width: 800px;
+    height: 40px;
+    margin-top: 0;
+    z-index: 99;
+  }
   
-}
-
-.subtitle {
-  font-family: 'Raleway', sans-serif;
-  color: #213523;
-  text-transform: uppercase;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 400px;
-}
-
-h4 {
-  font-family: 'Raleway', sans-serif;
-  color: #213523;
-  width: 600px;
-}
-
-.italics {
-  font-family: 'Crimson Text', serif;
-  width: 550px;
-}
-
-.small {
-  font-family: 'Raleway', sans-serif;
-  color: #213523;
-  font-size: small;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  width: 380px;
+  #menu1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 80px;
+    font-family: 'Raleway', sans-serif;
+    color: #cae8cd;
+    font-weight: bold;
+  }
   
-}
+  #menu2 {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 225px;
+    font-family: 'Raleway', sans-serif;
+    color: #cae8cd;
+    font-weight: bold;
+  }
+  
+  #menu3 {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 400px;
+    font-family: 'Raleway', sans-serif;
+    color: #cae8cd;
+    font-weight: bold;
+  }
+  
+  #menu4 {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 565px;
+    font-family: 'Raleway', sans-serif;
+    color: #cae8cd;
+    font-weight: bold;
+  }
+  
+  .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header {
+    font-family: 'Noto Serif', Serif;
+    color: white;
+  }
+  
+  img {
+    width: 250px;
+    position: static;
+  }
+  
+  .title1 {
+    position: absolute;
+    font-family: 'Noto Serif', Serif;
+    top: 280px;
+    left: 400px;
+  }
+  
+    .title2 {
+    font-family: 'Noto Serif', serif;
+    color: white; 
+    position: absolute;
+    top: 265px;
+    left: 400px; 
+  }
+  
+  p {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #213523;
+    width: 550px;
+  }
+  
+  ul {
+   font-family: 'Raleway', sans-serif;
+   color: #213523;
+   width: 550px;
+  }
+  
+  .bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: static;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  div {
+    width: 450px;
+    margin-left: 25px;
+  }
 
-.joblists {
-  line-height: 0;
-  margin-top: 50px;
-  margin-left: 5px;
-}
-
-.experience {
- display: flex;
- flex-direction: row;
- justify-content: flex-start;
-}
-
-#blockquote2 {
-  background-color: #213523;
-  color: white;
-  line-height: 0;
-  width: 200px;
-  height: 160px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
-
-#blockquote2::before {
-  content: '”';
-  background-color: #213523;
-  color: white;
-  font-family: 'Noto Serif', Serif;
-  font-size: 350%;
-  line-height: 0;
-  position: absolute;
-  top: 23px;
-}
-
-.quote2 {
-  position: relative;
-  top: 30px;
-  left: 20px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote3 {
-  position: relative;
-  top: 65px;
-  left: 20px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote4 {
-  position: relative;
-  top: 100px;
-  left: 20px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote5 {
-  position: relative;
-  top: 130px;
-  left: 20px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.training {
- display: flex;
- flex-direction: row;
- justify-content: flex-start;
-}
-
-#blockquote3 {
-  background-color: #213523;
-  color: white;
-  line-height: 0;
-  width: 200px;
-  height: 250px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#blockquote3::before {
-  content: '”';
-  background-color: #213523;
-  color: white;
-  font-family: 'Noto Serif', Serif;
-  font-size: 350%;
-  line-height: 0;
-  position: absolute;
-  top: 23px;
-}
-
-.quote6 {
-  position: relative;
-  top: 60px;
-  left: 15px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote7 {
-  position: relative;
-  top: 85px;
-  left: 15px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote8 {
-  position: relative;
-  top: 120px;
-  left: 15px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote9 {
-  position: relative;
-  top: 170px;
-  left: 15px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote10 {
-  position: relative;
-  top: 200px;
-  left: 15px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote11 {
-  position: relative;
-  top: 35px;
-  left: 15px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote12 {
-  position: relative;
-  top: 145px;
-  left: 15px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
-
-.quote13 {
-  position: relative;
-  top: 230px;
-  left: 15px;
-  width: 250px;
-  font-height: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Noto Serif', Serif;
-}
+  .achievements {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 0;
+   }
+   
+   .text {
+     width: 600px;
+   }
+   
+   blockquote {
+     background-color: #213523;
+     color: white;
+     width: 200px;
+     height:230px;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     font-height: 0;
+   }
+   
+   blockquote::before {
+     content: '”';
+     background-color: #213523;
+     color: white;
+     font-family: 'Noto Serif', Serif;
+     font-size: 350%;
+     position: absolute;
+     top: 5px;
+     left: 3px;
+     font-height: 0;
+   }
+   
+   .quote {
+     position: relative;
+     top: 20px;
+     bottom: 35px;
+     left: 30px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+     
+   }
+   
+   .subtitle {
+     font-family: 'Raleway', sans-serif;
+     color: #213523;
+     text-transform: uppercase;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     width: 400px;
+   }
+   
+   h4 {
+     font-family: 'Raleway', sans-serif;
+     color: #213523;
+     width: 600px;
+   }
+   
+   .italics {
+     font-family: 'Crimson Text', serif;
+     width: 550px;
+   }
+   
+   .small {
+     font-family: 'Raleway', sans-serif;
+     color: #213523;
+     font-size: small;
+     margin-top: 20px;
+     margin-bottom: 40px;
+     width: 380px;
+     
+   }
+   
+   .joblists {
+     line-height: 0;
+     margin-top: 50px;
+     margin-left: 5px;
+   }
+   
+   .experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   }
+   
+   #blockquote2 {
+     background-color: #213523;
+     color: white;
+     line-height: 0;
+     width: 200px;
+     height: 160px;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+   }
+   
+   #blockquote2::before {
+     content: '”';
+     background-color: #213523;
+     color: white;
+     font-family: 'Noto Serif', Serif;
+     font-size: 350%;
+     line-height: 0;
+     position: absolute;
+     top: 23px;
+   }
+   
+   .quote2 {
+     position: relative;
+     top: 30px;
+     left: 20px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote3 {
+     position: relative;
+     top: 65px;
+     left: 20px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote4 {
+     position: relative;
+     top: 100px;
+     left: 20px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote5 {
+     position: relative;
+     top: 130px;
+     left: 20px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .training {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   }
+   
+   #blockquote3 {
+     background-color: #213523;
+     color: white;
+     line-height: 0;
+     width: 200px;
+     height: 250px;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+   #blockquote3::before {
+     content: '”';
+     background-color: #213523;
+     color: white;
+     font-family: 'Noto Serif', Serif;
+     font-size: 350%;
+     line-height: 0;
+     position: absolute;
+     top: 23px;
+   }
+   
+   .quote6 {
+     position: relative;
+     top: 60px;
+     left: 15px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote7 {
+     position: relative;
+     top: 85px;
+     left: 15px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote8 {
+     position: relative;
+     top: 120px;
+     left: 15px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote9 {
+     position: relative;
+     top: 170px;
+     left: 15px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote10 {
+     position: relative;
+     top: 200px;
+     left: 15px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote11 {
+     position: relative;
+     top: 35px;
+     left: 15px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote12 {
+     position: relative;
+     top: 145px;
+     left: 15px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
+   .quote13 {
+     position: relative;
+     top: 230px;
+     left: 15px;
+     width: 250px;
+     font-height: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-family: 'Noto Serif', Serif;
+   }
+   
